@@ -1,37 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎮 Next Game Library
 
-## Getting Started
+A modern **game discovery web application** built with Next.js that allows users to explore games, view detailed information, and browse games across multiple platforms.
 
-First, run the development server:
+This project focuses on building a clean and responsive UI while practicing modern frontend development with the Next.js App Router.
+
+---
+
+## 🚀 Features
+
+* 🎮 Browse a large collection of games
+* 🕹️ Filter games by **Category**
+* 📄 View detailed information about each game
+* 📱 Fully responsive design
+* ⚡ Fast performance using Next.js features
+
+---
+
+## 🛠️ Tech Stack
+
+* Next.js (App Router)
+* React
+* JavaScript
+* Tailwind CSS
+* REST API integration
+
+
+---
+
+## ⚙️ Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/next-game-library.git
+```
+
+Move to the project directory:
+
+```bash
+cd next-game-library
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in your browser:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Live Demo : https://game-library-olive-three.vercel.app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# Next-Game-Library" 
+**Ahmed Alashmony**
+
+* GitHub: https://github.com/Alashmony2
+* Portfolio: https://ahmedalashmony.vercel.app
+
+---
+
+⭐ If you like this project, feel free to star the repository!
