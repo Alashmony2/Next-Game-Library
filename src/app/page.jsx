@@ -1,11 +1,12 @@
-import Navbar from "@/components/navbar.jsx";
 import Image from "next/image.js";
+
 
 export default function Home() {
   return <>
     <section className="relative w-full h-60">
-      <Navbar/>
-      <Image fill className="object-cover" src="/back.png" alt="background" />
+      {/* put navbar here */}
+      <Image fill className="object-cover" src="/back.png" alt="background" priority />
+      
     </section>
   </>
 }
