@@ -1,2 +1,7 @@
 @import "tailwindcss";
-@import "@heroui/styles"; 
+
+@theme {
+  --font-nekro: var(--font-nekro);
+  --font-cursive: var(--font-cursive);
+  --font-comfortaa: var(--font-comfortaa);
+}

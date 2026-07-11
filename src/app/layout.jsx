@@ -1,8 +1,11 @@
 import "./globals.css";
-import { Geist } from "next/font/google";
+import { Geist , Nerko_One ,Comfortaa ,Cedarville_Cursive} from "next/font/google";
 import { cn } from "@/lib/utils";
 
 const geist = Geist({ subsets: ['latin'], variable: '--font-sans' });
+const nerkoOne = Nerko_One({ subsets: ['latin'],  weight: ["400"], variable: '--font-nekro' });
+const comfortaa = Comfortaa({ subsets: ['latin'],  weight: ["400"], variable: '--font-comfortaa' });
+const cursive = Cedarville_Cursive({ subsets: ['latin'],  weight: ["400"], variable: '--font-cursive' });
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={cn("font-sans", geist.variable)}>
+    <html lang="en" className={cn("font-sans", geist.variable, nerkoOne.variable, comfortaa.variable, cursive.variable)}>
       <body className="bg-[#272B30] text-white">
         {children}
       </body>
