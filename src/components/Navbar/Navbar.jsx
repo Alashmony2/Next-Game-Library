@@ -17,13 +17,13 @@ export default function NavbarComponent() {
   ];
 
   return (
-    <nav className="bg-[#3A497B] w-5/6 top-0 rounded-3xl mx-auto text-white shadow-lg sticky z-50"> 
+    <nav className="bg-[#3A497B] w-5/6 top-0 -mt-12 rounded-3xl mx-auto text-white shadow-lg sticky z-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
 
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold flex items-center gap-2">
-          <Image src="/logo-sm.png" width={50} height={200} alt="Game Over Logo" className="" />
+            <Image src="/logo-sm.png" width={50} height={200} alt="Game Over Logo" className="" />
             Game Over
           </Link>
 
